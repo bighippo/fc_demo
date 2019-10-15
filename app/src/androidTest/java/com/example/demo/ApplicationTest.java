@@ -1,4 +1,4 @@
-package com.journaldev.demo;
+package com.example.demo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
