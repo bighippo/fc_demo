@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.journaldev.demo.UserListActivity"
+            android:name="com.example.demo.UserListActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,11 +21,7 @@
         </activity>
 
         <activity
-            android:name="com.journaldev.demo.ModifyUserActivity"
-            android:label="@string/app_name" />
-
-        <activity
-            android:name="com.journaldev.demo.AddUserActivity"
+            android:name="com.example.demo.AddUserActivity"
             android:label="@string/app_name" />
     </application>
 

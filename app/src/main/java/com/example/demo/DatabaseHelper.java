@@ -1,4 +1,4 @@
-package com.journaldev.demo;
+package com.example.demo;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

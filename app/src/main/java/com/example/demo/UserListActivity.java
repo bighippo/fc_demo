@@ -1,4 +1,4 @@
-package com.journaldev.demo;
+package com.example.demo;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.journaldev.demo.R;
 
 public class UserListActivity extends Activity {
 
@@ -53,20 +55,7 @@ public class UserListActivity extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long viewId) {
-//                TextView idTextView = (TextView) view.findViewById(R.id.id);
-//                TextView titleTextView = (TextView) view.findViewById(R.id.title);
-//                TextView descTextView = (TextView) view.findViewById(R.id.desc);
-//
-//                String id = idTextView.getText().toString();
-//                String title = titleTextView.getText().toString();
-//                String desc = descTextView.getText().toString();
-//
-//                Intent modify_intent = new Intent(getApplicationContext(), ModifyUserActivity.class);
-//                modify_intent.putExtra("title", title);
-//                modify_intent.putExtra("desc", desc);
-//                modify_intent.putExtra("id", id);
-//
-//                startActivity(modify_intent);
+
             }
         });
 

@@ -1,4 +1,4 @@
-package com.journaldev.demo;
+package com.example.demo;
 
 import android.content.ContentValues;
 import android.content.Context;
